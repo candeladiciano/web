@@ -1,11 +1,12 @@
-* {
+header {
   background-color:#3A3A3A;
   text-aline: center;
 }
 
 head {
-  color: 
-    font-
+  color: black;
+    font-family: Times New Roman;
+  }
 nav {
   padding: 3em;
   font-family: font-family: Verdana, Geneva, sans-serif;
