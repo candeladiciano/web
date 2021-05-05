@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFO TEC-REGISTRO DE REPARACIÓN</title>
+
+INFO TEC-FICHA DE REPARACÍON DE EQUIPOS
+
+<body>
+    
+
+  <form action="mailto:atropeano@murialdo.edu.ar" method="post" enctype="text/plain">
+  
+  <!--input type  -->
+ INGRESE SU NOMBRE Y APELLIDO:
+  <input type="text" name="nombre" surname= "apellido">
+  <br>
+  INGRESE SU NÚMERO DE TELEFONO:
+    <!--input type para contraseña  -->
+  <input type = "number" name="numero de telefono" >
+  <br>
+
+  <!--cuadro de texto  -->
+  <textarea name="comentario" rows="10" cols="40">Escriba una descripción del problema de su equipo....</textarea>
+
+ 
+ <!--lista desplegable  -->
+
+  Turnos disponibles para recibimiento de equipos para reparación
+  <select name="Opciones">
+    <option value = "Miércoles 5-5">Miercoles 5-5</option>
+    <option value = "Jueves 6-5">Jueves 6-5</option>
+    <option value ="Viernes 7-5">Viernes 7-5</option>
+    <option value= "Sábado 8-5">Sábado 8-5</option>
+    </select>
+    <br>
+
+   Horario en el que podra retirar el equipo ya reparado:
+   <!--opciones  -->  
+    <input type="radio" id="Mañana" name="Turno" value="Mañana" >
+    <label for= "Mañana">Mañana</label>
+    <br>
+      <input type="radio" id="Tarde" name="Turno" value="Tarde">
+      <label for= "Tarde">Tarde</label>
+     <br>  
+   <input type="radio" id="Ambos" name="Turno" value="Ambos">
+     <label for= "Ambos">Ambos</label>
+  
+  <!--botón  -->
+     <input type="submit" value="Enviar">
+  </form>
+
+
+</body>
+</html>
